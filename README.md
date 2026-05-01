@@ -22,3 +22,36 @@ Affordable OpenAI-compatible AI API gateway for developers and startups.
 ## Contact
 - Support: support@xidao.online
 - Telegram: https://t.me/ccyu085
+
+## Русский язык / Russian
+
+Добро пожаловать! XiDao AI API Gateway — это единый API-шлюз для доступа к ведущим AI-моделям 2026 года.
+
+**Доступные модели:** Claude 4.7, GPT-5.5, Gemini 3.0 Pro и другие.
+
+**Преимущества:**
+- Совместимость с OpenAI API — просто меняйте `base_url`
+- Низкие цены через интеллектуальный роутинг
+- Автоматический failover между моделями
+- Поддержка русского языка во всех моделях
+
+**Быстрый старт:**
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    api_key="your-xidao-api-key",
+    base_url="https://api.global.xidao.online/v1"
+)
+
+response = client.chat.completions.create(
+    model="claude-4.7",
+    messages=[{"role": "user", "content": "Привет! Расскажи о себе."}]
+)
+print(response.choices[0].message.content)
+```
+
+**Полезные ссылки:**
+- Сайт: https://global.xidao.online
+- Python примеры: [xidao-python-examples](https://github.com/XidaoApi/xidao-python-examples)
+- Node.js примеры: [xidao-nodejs-examples](https://github.com/XidaoApi/xidao-nodejs-examples)
