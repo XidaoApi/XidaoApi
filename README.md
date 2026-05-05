@@ -9,9 +9,14 @@ Affordable OpenAI-compatible AI API gateway for developers and startups.
 - Practical examples and migration guides for engineering teams
 
 ## Start here
-- [XiDao Python Examples](https://github.com/XidaoApi/xidao-python-examples)
-- [XiDao Node.js Examples](https://github.com/XidaoApi/xidao-nodejs-examples)
-- [XiDao Cookbook](https://github.com/XidaoApi/xidao-cookbook)
+- [XiDao Python Examples](https://github.com/XidaoApi/xidao-python-examples) — Chat, streaming, embeddings, multi-provider switching
+- [XiDao Node.js Examples](https://github.com/XidaoApi/xidao-nodejs-examples) — Streaming, Vercel AI SDK, endpoint migration
+- [XiDao Cookbook](https://github.com/XidaoApi/xidao-cookbook) — Migration guides, failover patterns, cost control
+- [LLM Failover Router Demo](https://github.com/XidaoApi/llm-failover-router-demo) — Production failover with circuit breakers
+- [LLM Cost Calculator](https://github.com/XidaoApi/llm-cost-calculator) — Compare pricing across 50+ providers
+- [MCP Server Template](https://github.com/XidaoApi/mcp-server-template) — Build MCP servers with multi-provider routing
+- [LLM Provider Migration Checklist](https://github.com/XidaoApi/llm-provider-migration-checklist) — Safe switching between providers
+- [LLM Output Checker Action](https://github.com/XidaoApi/llm-output-checker-action) — Validate LLM responses in CI/CD
 - Website: https://global.xidao.online/
 
 ## Why developers use XiDao
