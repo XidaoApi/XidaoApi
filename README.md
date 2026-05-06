@@ -60,3 +60,4 @@ print(response.choices[0].message.content)
 - Сайт: https://global.xidao.online
 - Python примеры: [xidao-python-examples](https://github.com/XidaoApi/xidao-python-examples)
 - Node.js примеры: [xidao-nodejs-examples](https://github.com/XidaoApi/xidao-nodejs-examples)
+| [llm-api-bench](https://github.com/XidaoApi/llm-api-bench) | Benchmark LLM providers on latency, throughput, cost, and quality |
