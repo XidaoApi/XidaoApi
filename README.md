@@ -34,6 +34,7 @@ print(response.choices[0].message.content)
 | [mcp-server-template](https://github.com/XidaoApi/mcp-server-template) | MCP server template with multi-provider routing and observability |
 | [llm-provider-migration-checklist](https://github.com/XidaoApi/llm-provider-migration-checklist) | Safe provider switching checklist with regression test suite |
 | [llm-output-checker-action](https://github.com/XidaoApi/llm-output-checker-action) | GitHub Action to validate LLM responses in CI/CD pipelines |
+| [llm-prompt-tester](https://github.com/XidaoApi/llm-prompt-tester) | Test and compare LLM prompts across providers — quality scoring, latency, cost |
 
 ## Why Developers Choose XiDao
 
