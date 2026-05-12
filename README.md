@@ -32,6 +32,7 @@ print(response.choices[0].message.content)
 
 | Repository | Description |
 |------------|-------------|
+| [agent-eval-toolkit](https://github.com/XidaoApi/agent-eval-toolkit) | Evaluate LLM agent outputs across providers — tool-use validation, regression testing, cost-aware scoring |
 | [xidao-python-examples](https://github.com/XidaoApi/xidao-python-examples) | Python SDK examples - chat, streaming, embeddings, multi-provider switching |
 | [xidao-nodejs-examples](https://github.com/XidaoApi/xidao-nodejs-examples) | Node.js/TypeScript - streaming, Vercel AI SDK, endpoint migration |
 | [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook) | Migration guides, failover patterns, cost control recipes |
@@ -96,4 +97,4 @@ print(response.choices[0].message.content)
 - Cookbook: [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook)
 
 ---
-*Last updated: 2026-05-11*
+*Last updated: 2026-05-12*
