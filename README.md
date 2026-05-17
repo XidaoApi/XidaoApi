@@ -1,9 +1,9 @@
      1|# XiDao API Gateway
      2|
      3|[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-     4|[![Website](https://img.shields.io/website?url=https%3A%2F%2Fglobal.xidao.online&label=Website)](https://global.xidao.online)
-     5|[![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible-blue.svg)](https://global.xidao.online)
-     6|[![Models](https://img.shields.io/badge/Models-100%2B-green.svg)](https://global.xidao.online)
+     4|[![Website](https://img.shields.io/website?url=https%3A%2F%2Fxidaoapi.com&label=Website)](https://xidaoapi.com)
+     5|[![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible-blue.svg)](https://xidaoapi.com)
+     6|[![Models](https://img.shields.io/badge/Models-100%2B-green.svg)](https://xidaoapi.com)
      7|
      8|Affordable OpenAI-compatible AI API gateway for developers and startups.
      9|
@@ -18,7 +18,7 @@
     18|
     19|client = OpenAI(
     20|    api_key="your-xidao-api-key",
-    21|    base_url="https://api.global.xidao.online/v1"
+    21|    base_url="https://api.xidaoapi.com/v1"
     22|)
     23|
     24|response = client.chat.completions.create(
@@ -55,7 +55,7 @@
     55|
     56|## Links
     57|
-    58|- Website: https://global.xidao.online
+    58|- Website: https://xidaoapi.com
     59|- Support: support@xidao.online
     60|- Telegram: https://t.me/ccyu085
     61|
@@ -80,7 +80,7 @@
     80|
     81|client = OpenAI(
     82|    api_key="your-xidao-api-key",
-    83|    base_url="https://api.global.xidao.online/v1"
+    83|    base_url="https://api.xidaoapi.com/v1"
     84|)
     85|
     86|response = client.chat.completions.create(
@@ -91,7 +91,7 @@
     91|```
     92|
     93|**Poleznye ssylki:**
-    94|- Sayt: https://global.xidao.online
+    94|- Sayt: https://xidaoapi.com
     95|- Python primery: [xidao-python-examples](https://github.com/XidaoApi/xidao-python-examples)
     96|- Node.js primery: [xidao-nodejs-examples](https://github.com/XidaoApi/xidao-nodejs-examples)
     97|- Cookbook: [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook)
