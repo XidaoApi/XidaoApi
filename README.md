@@ -7,7 +7,7 @@
 
 The affordable OpenAI-compatible AI API gateway for developers, startups, and AI agents.
 
-Access 100+ LLM models through a single API endpoint — Claude, GPT, Gemini, DeepSeek, Qwen, Mistral, Llama, and more. Smart routing, automatic failover, and cost optimization built in.
+Access 100+ LLM models through a single API endpoint — Claude 4.7, GPT-5.5, Gemini 3.0 Pro, DeepSeek V4, Qwen 3, Mistral Large, Llama 4, and more. Smart routing, automatic failover, and cost optimization built in.
 
 ---
 
@@ -40,6 +40,7 @@ print(response.choices[0].message.content)
 | [llm-api-bench](https://github.com/XidaoApi/llm-api-bench) | Benchmark LLM providers on latency, throughput, cost, and quality |
 | [llm-cost-calculator](https://github.com/XidaoApi/llm-cost-calculator) | Compare pricing across 50+ providers and estimate monthly costs |
 | [llm-failover-router-demo](https://github.com/XidaoApi/llm-failover-router-demo) | Production failover router with circuit breakers and health checks |
+| [mcp-cost-analyzer](https://github.com/XidaoApi/mcp-cost-analyzer) | Analyze MCP tool schema overhead, token usage, and per-turn cost for AI agents |
 | [mcp-server-template](https://github.com/XidaoApi/mcp-server-template) | MCP server template with multi-provider routing and observability |
 | [llm-provider-migration-checklist](https://github.com/XidaoApi/llm-provider-migration-checklist) | Safe provider switching checklist with regression test suite |
 | [llm-output-checker-action](https://github.com/XidaoApi/llm-output-checker-action) | GitHub Action to validate LLM responses in CI/CD pipelines |
@@ -98,4 +99,4 @@ print(response.choices[0].message.content)
 - Cookbook: [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook)
 
 ---
-*Last updated: 2026-05-17*
+*Last updated: 2026-05-22*
