@@ -39,6 +39,7 @@ print(response.choices[0].message.content)
 | [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook) | Migration guides, failover patterns, cost control recipes |
 | [llm-api-bench](https://github.com/XidaoApi/llm-api-bench) | Benchmark LLM providers on latency, throughput, cost, and quality |
 | [llm-cost-calculator](https://github.com/XidaoApi/llm-cost-calculator) | Compare pricing across 50+ providers and estimate monthly costs |
+| [llm-config-auditor](https://github.com/XidaoApi/llm-config-auditor) | Audit OpenAI-compatible app configs for base_url, model, retries, timeouts, and production-safety mistakes before deployment |
 | [llm-failover-router-demo](https://github.com/XidaoApi/llm-failover-router-demo) | Production failover router with circuit breakers and health checks |
 | [mcp-cost-analyzer](https://github.com/XidaoApi/mcp-cost-analyzer) | Analyze MCP tool schema overhead, token usage, and per-turn cost for AI agents |
 | [mcp-server-template](https://github.com/XidaoApi/mcp-server-template) | MCP server template with multi-provider routing and observability |
@@ -99,4 +100,4 @@ print(response.choices[0].message.content)
 - Cookbook: [xidao-cookbook](https://github.com/XidaoApi/xidao-cookbook)
 
 ---
-*Last updated: 2026-05-22*
+*Last updated: 2026-06-01*
